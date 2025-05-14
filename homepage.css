@@ -1,0 +1,807 @@
+@charset "UTF-8";
+/* Base Styles (mobile first) */
+.wrapper{ align-content:center;
+max-width:1200px;
+margin:0 auto;
+padding: 0 1rem;
+align-self: center;}
+
+body
+{margin: 0;
+font-family:sans-serif;
+background-color: black;
+padding: 1rem;
+text-align: center;
+}
+.biobox{
+
+}
+.navbar{color:white}
+a {
+	text-decoration: none;
+	color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+a hover {
+	text-decoration: underline;
+	color: lightgreen
+}
+
+.ContactMe {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+main{
+	font-size: 1.2rem;
+	
+}
+/* Tablet: min-width 600px (only works if it's second for some reason) */
+@media (min-width:600px)
+{
+	body{
+		background-color: black;
+	}
+
+	main{
+		font-size: 1.2rem;
+		max-width: 700px;
+	}
+}
+/* Desktop: min-width 900px */
+@media (min-width: 900px)
+{
+body { background-color: black;
+}
+	
+	main{
+		max-width: 1000px;
+		margin: 0 auto;
+		text-align: left;
+	}
+}
+
+
+const StyledMargin {;
+  width: 255.80px;
+  height: 25.51px;
+  padding-bottom: 10px;
+  padding-left: 442px;
+  left: 228px;
+  top: 922.85px;
+	position: absolute;}
+
+const StyledContainer { ;
+  width: 110px;
+  height: 29.80px;
+  left: 669px;
+  top: 779px;
+  position: absolute;
+}
+
+const StyledLinkzakrdhcomcastnetspan { styled: span;
+  color: #F0F4FF;
+  font-size: 16px;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 28.80px;
+  word-wrap: break-word;
+}
+
+const Styled4158169436span { styled: span;
+  color: #F0F4FF;
+  font-size: 16px;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 28.80px;
+  word-wrap: break-word;
+}
+
+const StyledContactmespan {styled: span;
+  color: #58FB6B;
+  font-size: 45px;
+  font-family: Playfair Display;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+const StyledHeyimzakandthisisalittleblurbaboutmeivecommittedtoartandgraphicdesignasahobbybecauseofhowmuchcreativityitinvolvesandhowmuchilikelettingmymindwanderiliketodrawthingsthataretowardsthehorrorsideofthingswithmelikingsubjectsalongthelinesofeldritchhorrorandjustcreepythingsingeneralthemainreasonicreateartisbecauseitletsmyminddoitsownthingwithouthavingtoworryaboutrestrictionsorworryingaboutwhatihavetodoessentiallyimakeartbecauseitisacozyandsafespacetojustletmycreativityoutwithoutanyboundariesspan {styled: span;
+  color: #F0F4FF;
+  font-size: 15.19px;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 24.30px;
+  word-wrap: break-word;
+}
+
+const StyledAboutmespan {styled: span;
+  color: #58FB6B;
+  font-size: 37.97px;
+  font-family: Playfair Display;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+const StyledMargin05  {;
+  width: 845.11px;
+  height: 90.02px;
+  padding-bottom: 44.40px;
+  padding-left: 676.70px;
+  left: 0px;
+  top: 1687.16px;
+  position: absolute;
+}
+
+const StyledGradient {styled: div;
+  width: 1864px;
+  height: 296px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: radial-gradient(ellipse 101.25% 637.62% at 0.00% 0.00%, rgba(21, 108, 25, 0.81) 0%, rgba(0, 0, 0, 0) 14%);
+}
+
+const StyledLinkzakhandelmanspan  {;
+  color: #F0F4FF;
+  font-size: 15.08px;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 21.12px;
+  word-wrap: break-word;
+}
+
+const StyledContainer17 {;
+  align-self: stretch;
+  height: 222px;
+  min-height: 222px;
+  padding-top: 33.75px;
+  padding-left: 450.75px;
+  padding-right: 39.75px;
+}
+
+const StyledTextspan {;
+  color: #F0F4FF;
+  font-size: 13.50px;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 37.50px;
+  word-wrap: break-word;
+}
+
+const StyledText01span = 
+  color: #F0F4FF;
+  font-size: 13.50px;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: 37.50px;
+  word-wrap: break-word;
+`;
+
+const StyledContainer02 = `
+  width: 186.34px;
+  height: 24.03px;
+  padding-bottom: 0.80px;
+  left: 1080px;
+  top: 828px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledContainer03 = `
+  width: 110px;
+  padding-bottom: 0.80px;
+  left: 168px;
+  top: 18px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledHeading2 = `
+  align-self: stretch;
+  height: 51px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledContainer07 = `
+  align-self: stretch;
+  padding-bottom: 0.49px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledHeading1 = `
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledContainer15 = `
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledContainer18 = `
+  width: 56.25px;
+  padding-left: 11.94px;
+  padding-right: 7.50px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  display: inline-flex;
+`;
+
+const StyledContainer19 = `
+  width: 56.25px;
+  padding-left: 11.94px;
+  padding-right: 7.50px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  display: inline-flex;
+`;
+
+const StyledContainer09 = `
+  width: 1574px;
+  height: 275px;
+  left: -120px;
+  top: 18px;
+  position: absolute;
+  overflow: hidden;
+`;
+
+const StyledContainer16 = `
+  width: 296px;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledMargin01 = `
+  width: 278px;
+  height: 48px;
+  left: 566px;
+  top: 816px;
+  position: absolute;
+`;
+
+const StyledContainer04 = `
+  width: 461.62px;
+  height: 51.02px;
+  left: 728px;
+  top: 768px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledContainer06 = `
+  width: 567px;
+  height: 211.78px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledContainer08 = `
+  width: 167.91px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledContainer14 = `
+  width: 266.48px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledLink01 = `
+  flex: 1 1 0;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledLink02 = `
+  flex: 1 1 0;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledMargin03 = `
+  width: 631.12px;
+  height: 317.25px;
+  padding-bottom: 31.22px;
+  padding-left: 38.81px;
+  left: 219.38px;
+  top: 421.03px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledMargin04 = `
+  width: 189px;
+  padding-top: 16.03px;
+  padding-bottom: 13.50px;
+  left: 460px;
+  top: 60.98px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledMargin07 = `
+  width: 165.09px;
+  padding-top: 46.09px;
+  padding-bottom: 8.38px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledComponent4 = `
+  width: 63.75px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledComponent401 = `
+  width: 58.50px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledList = `
+  width: 122.25px;
+  height: 37.50px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  justify-content: flex-end;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledNavSite = `
+  width: 122.25px;
+  height: 37.50px;
+  left: 0px;
+  top: -18px;
+  position: absolute;
+`;
+
+const StyledWixdropdownmenu = `
+  width: 122.25px;
+  height: 37.50px;
+  left: 1688px;
+  top: 54px;
+  position: absolute;
+`;
+
+const StyledLinkedIn = `
+  position: relative;
+`;
+
+const StyledInstagram = `
+  position: relative;
+`;
+
+const Styled15e88e98ba2df946ea4d769277541fb030c0femv2jpg = `
+  width: 185.62px;
+  height: 255.66px;
+  position: relative;
+`;
+
+const StyledComponent2 = `
+  position: relative;
+`;
+
+const StyledBusinesscardeditedjpg = `
+  left: 0px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledLinkLinkedIn = `
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledLinkInstagram = `
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledImagefill = styled.img`
+  width: 36.87px;
+  height: 36.87px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledContainer05 = `
+  width: 268.31px;
+  height: 486.84px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledItem01 = `
+  width: 22px;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledItem02 = `
+  width: 22px;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledImgbusinesscardeditedjpgmask = styled.img`
+  width: 36.87px;
+  height: 36.87px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledMargin02 = `
+  width: 635.34px;
+  height: 421.88px;
+  padding-left: 372.94px;
+  left: 76.78px;
+  top: 49.78px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledLink = `
+  align-self: stretch;
+  flex: 1 1 0;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledSection = `
+  width: 219.38px;
+  height: 929.81px;
+  left: 0px;
+  top: -288.98px;
+  position: absolute;
+`;
+
+const StyledContainer13 = `
+  width: 36.87px;
+  height: 36.87px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledMain = `
+  width: 356px;
+  height: 417px;
+  left: 415px;
+  top: 332px;
+  position: absolute;
+`;
+
+const StyledMargin06 = `
+  width: 36.87px;
+  height: 82.96px;
+  padding-top: 37.71px;
+  padding-bottom: 8.38px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledContainer12 = `
+  width: 774.31px;
+  height: 278.22px;
+  min-height: 248.05px;
+  padding-bottom: 165.09px;
+  padding-left: 51.12px;
+  padding-right: 416.49px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10.06px;
+  display: inline-flex;
+`;
+
+const StyledContainer11 = `
+  width: 710.62px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledContainer10 = `
+  flex: 1 1 0;
+  align-self: stretch;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledSection01 = `
+  width: 1084px;
+  height: 111px;
+  min-width: 735px;
+  left: -4px;
+  top: -1px;
+  position: absolute;
+  justify-content: center;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledYoutube01 = `
+  position: relative;
+`;
+
+const StyledYoutube = `
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledItem = `
+  width: 22px;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledListSocialBar = `
+  width: 94px;
+  height: 22px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 14px;
+  display: inline-flex;
+`;
+
+const StyledContainer01 = `
+  width: 94px;
+  height: 22px;
+  left: 915px;
+  top: 835px;
+  position: absolute;
+`;
+
+const StyledHomeaboutme = `
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  background: black;
+  overflow: hidden;
+`;
+
+export const HomeAboutMe = () => {
+  return (
+    <StyledHomeaboutme>
+      <StyledMargin />
+      <StyledContainer />
+      <StyledContainer01>
+        <StyledListSocialBar>
+          <StyledItem>
+            <StyledYoutube>
+              <div data-svg-wrapper data-layer="Youtube_01" style="position: relative">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect width="22" height="22" fill="url(#pattern0_19_298)"/>
+                <defs>
+                <pattern id="pattern0_19_298" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image0_19_298" transform="scale(0.0454545)"/>
+                </pattern>
+                <image id="image0_19_298" width="22" height="22" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAABCFJREFUSEuFVUtIZEcUPXXr9c+x/dDJIm2GSNAgAxLIKmFI0KxcTDSLCG6iCDGgRPATAkENfoI6DAqNq164EkFMYByyUFGIMAaE4MKNIcEPIYJOSIv5dezuV+/G++aVNJnJTEFR1VV9zz331KtTqqamJnJwcJCTsby83Nvd3S00NDQ4Ozs7N/P5fBOA28z8OoBXABQAZAD8REQPotHoN5WVlb+fnJz8w8xqbGxMbW1tEQAoADroEsSyCOAzAB8DeBlAJFiTwQNgglHmTESTdXV19/b39/Otra16eXlZ1q+B5UcYwAsAvgbwZpDEJirCfmJKSqnvYrFYazwe/+Ps7Czb2NiohXEoYPEigIcAagDkAUhJ0uU/T2s2qYwOgJ9jsdjb2Wz2xAL7QY7jPGTm2wFTCyZB/2Xt7zH7yywjM7sBwe+Z+S0rhdX0LgD5g2guOsr43KaUn8dl5oJSqoSZv2TmL1QkEqnN5XKrRPQqgEsiiiaTSTQ3N3MikaCysjLE43FEo1EYY5DP55HNZjmTyeD8/BwrKyvm9PQUSilhL2f1FzO/Iem6lVL3HMe54bquSSaT6vj4WDmOowI2z2ItepiqqioE4FrQlVKfCPBXAD4IhUJwXZd7e3u9VCqlLy8vRXdfSyLyu7RCoSDs/O66rlRihoaGzNTUlCYiZYxhrfWGAP8I4LUA2JuenubBwUEtQQIm4Gtra0in01K2Dy7JRBYB11pzKpUq9Pf3W2AiogMBzgKIWeB0Os1dXV1aAj3Pg6yvr6+jpaXFZzg3N4fu7m6fubRQKMQLCwumo6NDANkYo4jICPA5gEoLPD8/z52dnTqXy10z3tzcRFNTk59ofHwcIyMjPrDW2j+0xcVF097eroW9nBMR+RfkB5HCcRwyxnizs7Po6+sjCbS6bmxsYGJiAtvb29dSiBxSQTgc5nQ67fX09JAkcl3XI6JHcvL3mfmO1toR4IGBAczMzJAcXiQS8fW0egeBvu7+x+u6Mufh4WFvcnKSZF3WtNYPlNb6Q2PMvNY6ZIwx1dXV6ujoSO6/X7plbQ/NrtmvRQyptraWDw8PBZBc13W11h+pioqKiouLi1+JKOR5nuiD+vp6amtrU4lEgsPhsCotLZVP6JplNpuFnEEmk+GlpSXe29vz88rheZ73d0lJyS3rCZ8qpabl2y66zv9nPvbCFJuQzK1Dfs7Md21wRCm1yswNgbNZn358K55sxcYkgOIxUQDfAnh3dHSUBOBGwLIi2KgNrNIaUbHTPS2J7AvwLwDeAXAq7G2QZSievApAniK5AXL8zzN7qWoXwPtXvvMoiHvseUGTuQUZEXMC8FKg3bOMaPqqwrGgSnk05Cb7jOVNywWRsiFMYwBKr5i8B+AOgFsAbgZ7vwX+cv+qMul/Fr04orf/6vwLGmftYsX1c5gAAAAASUVORK5CYII="/>
+                </defs>
+                </svg>
+              </div>
+            </StyledYoutube>
+          </StyledItem>
+          <StyledItem01>
+            <StyledLinkLinkedIn>
+              <div data-svg-wrapper data-layer="LinkedIn" style="position: relative">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect width="22" height="22" fill="url(#pattern0_19_301)"/>
+                <defs>
+                <pattern id="pattern0_19_301" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image0_19_301" transform="scale(0.0454545)"/>
+                </pattern>
+                <image id="image0_19_301" width="22" height="22" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAABF9JREFUSEuFVV9IrEUcPTPfp65pD15KEtYwFSx1LQ1JtiSjHiI2jLwqLKIP9qCFrNFDEQhi1LXwRV/ySXNRUYxLEQgloVDh4oOE+Gfvi9cHMbW6JLm1/76Z9ozfyhZ1G/h2ZufP+Z0585szoqKiwnN0dBSvrq4u8Hq9zsbGRrqtrc2ORCLlyWTyFSGEXyn1FIBHAaQA/ArgjpTyS4/H81UsFjsDoAE8COBPt50vcFXyACj346R3AbwBoEwIUeTOyVa586C1fg/ApwDiAIjHcQgybWxsTB8eHspoNHojkUh8rpR61kUxgbVmrL+V6w6ttQNgE8DrAO65jCUX2gCcoqKi0lgs9gOAKiFEAoBkYCkllDIk/rW4QS0AdwG85NYG+EqLvLzvUqnUc1JKLYRAKBQSu7u7ztraGlE573puTgShtWZ/EkABgB8BPE05BA9qY2PjHSHELSFEUkqZPz4+ngqFQnlk09TUJPb29u5D2OhEObhztkcBfCI8Hs9j8Xj8GyFElZQy7ThO3tjYmB4ZGeFkq7a2VkSj0f8DZraQOeX7GcCT/PMWgI8B8PTTQghh27b0+Xw4Pj4W5+fnRpr/lticIycYIm47xI4lAN0cJWOtta6vr8/r6upCKpXSY2NjaGhowOjoKDY3NzE5OYn5+XlUVVVhf39f9/b2Mmuykak121/z5yAD/jiBLctKMwMGBgbsqakp/teWZWFwcFAT0LZtxONx9vOwDdjBwYH2+XyC69jvOA4P9C4HfwdQnAMsenp6rLm5OQghjAw3b97UKysrJp9PT08xPDyMiYkJUV5ebhTyer04OTlxXGBba/0HgSn2Q7nA3d3dVjgcJivNPO7s7NSLi4sGmGDn5+dobm4WkUjEALe0tGB7e9uhJI7DSjsE3gXwBCV2pRDBYNAwphRk3NXVpZeWeBRAYWEht4vKykqTLRz3+/2IRCLKsqws8DGBVzKJ/dqVxJajlLqWgqG5vY6ODr28vGw0LCkpwcXFBerq6rCzs8MkImO9tbVFYMvV+DaBgwA+Y4JngYPBoAyHw7zOhjGByZiHV1xcjFgshpqaGmYFgbXf7ycw59pKKfJ5k8DFQoh7V+QspZSSQ0NDzAJGdzweD/r7+zE9PW2kKCsrw9nZGVpbW7G+vm6CBwKB1OrqqnJ95VJr/QyBPVLKYaXUBy4yDyjd3t5uXV5eqtnZWVFaWopAIGCAZ2ZmTC2lFH19fWZHCwsLSCaTxrS01u9nfONWNrF5Y74F4OcNsm27wHGcBGteEnpAQQE9BkgkaHxXJT8/36RkIpFIk2DG3b4H8LwxIbeDJv0IgC0ATE7eIGkEdL2YzPjlWqjbJ5VSfDl+AvACgFMmQu4LQiN5GEAYwMuuU5EeX5f7Fe52G8CrAH5x16Vy3YV7JdADAIYBvA3gxj8Qc5+S7NoPM6p85BoQp5t3j4OMmHUmmnp2sdfN7xczuV7nSsRdkdUdALcBfJEh8Rtd0bVM4hBT/wXzbQZo9rdURwAAAABJRU5ErkJggg=="/>
+                </defs>
+                </svg>
+              </div>
+            </StyledLinkLinkedIn>
+          </StyledItem01>
+          <StyledItem02>
+            <StyledLinkInstagram>
+              <div data-svg-wrapper data-layer="Instagram" style="position: relative">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect width="22" height="22" fill="url(#pattern0_19_305)"/>
+                <defs>
+                <pattern id="pattern0_19_305" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image0_19_305" transform="scale(0.0454545)"/>
+                </pattern>
+                <image id="image0_19_305" width="22" height="22" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAABKVJREFUSEttVVFIW2cU/s5/kxujTaKgVodbaBCGG7K+bRNa4pCxKTpKH32R7mE40VqKLUVXo00GzRxSOhj40qetD24o6NsmLYK0ThBhK2TinMOmHUNwFqrmJvc/2/l378jKLuTm3vv/5zvnfOec76dUKqVSqZRubm4OAcDW1lYhmUwGVldXGxzHeY+Z32XmNwDUArABPAOwrpSaCwaD97u7u3978OCBffLkyVIikdDb29vq4OBAkYB5BkUA7L0PAxgEUAfgBAB/n7cMF8AxgKJS6nOtdZqZzZ729nZL/uVFfhJJAcArAL4C8CaAIICSh+Tve9GBBFIgoh9t2+69du3a9sLCghWJRIwXoUAiiAG4D+B1APsAagDoMud+tAL2HwdEJPa/27b9zvHx8ZaJ2ONYnr9TSiW11kcAKi3LQiwWQ0tLCyzL8ikiIkKhUEA+n+fHjx/Do8CV7wAeNTY2tuXz+SMDPDk5eYmZp5j5EEDYsiwnl8uF4vG4DgaDpLWGUkoM2Xs2Ue/t7aGhoUG5rstKqSOttfD7aVNT02dUUVFxynGcJa11UyAQgCzm83mltXbj8bgqlUomYteVbGEcCLhktLGxgUQiQVVVVSWllNhI2PuRSORVsizrQ2b+wrIsWwxOnz6tHj586Nq2rYiImVnShTiNRCLY399HW1sblpaWEA6HxYnq6enhxcVFCgQChVKpJDW7REqprwGcJ6KA8HXhwgW6deuWG41GLdd1DXebm5sUj8dNxE+ePEEymcTVq1fR399PwvPt27fp5s2bCAaDXCwWJepFuf1ERC1eimpoaIjT6TRHo1HFzFoMZXMikWBxksvlUF9fj+rqalOtp0+f0szMDMbHx8uBf5XFZ0QU+YcirQYHB/nGjRtcU1OjWltb9draGkKhkOkG4bVYLBpqzp07h/n5eezs7NDs7CxGRkaELi6VSoJpbn8QUZ0PfPHiRZ6YmOBYLKa6urr03NwcKioqpBYGVC5pt76+Pty9exe7u7ske4aGhsqBj3wqXvOooOHhYQMcjUZlTTjD9PQ0XblyxYBevnwZU1NT8PrWAN+5cwfXr18XYO1FvCvG3xDRB0opS9plYGCAs9ksV1ZWGmDpgJWVFTo4ODDAMjQ+DfKez+el2Mhmsz6wNPz3YtxLRF8S0Qnpis7OTpbUQqGQaTVfKzKZjHkcHR31v5l/x3Got7eXZ2dnhS7tuq4AfyzAUSLaIaJqAZZhEA4zmQxLep7ivSg+Pi2mzWzbNqMtdfKAXzIGSqkRZs4KCBEVz549G7x37x4/f/5c9NkUy+sKs1+A6urqUFtbi46ODiwvL7vSmrLEzJN/44z7kYhELhHRmTJFw9jYGLe2tqKqqkqck+M4EGcycevr60in034R/QldB/C2r8eixQ6ARgArRHRKWkuERTiWsRZQn1gZ+/JLMvEU7pdwOHzm8PDwTzkEfAOj+gDqAXwL4C2ZCKWUmbb/u/zCesLzgwh9oVAQLTbdVG7lnxIiIh9JA8g59wLwv23iiz0zZ5j5E8lMJFeOK5+KAAD5ydHkO5J85fA8D+B971R52aNsD8DPAOYAzMvk+i1Zbv8XS1Ew3ObNR6sAAAAASUVORK5CYII="/>
+                </defs>
+                </svg>
+              </div>
+            </StyledLinkInstagram>
+          </StyledItem02>
+        </StyledListSocialBar>
+      </StyledContainer01>
+      <StyledContainer02>
+        <StyledLinkzakrdhcomcastnet>zakrdh@comcast.net</StyledLinkzakrdhcomcastnet>
+      </StyledContainer02>
+      <StyledMargin01>
+        <StyledContainer03>
+          <Styled4158169436>415-816-9436</Styled4158169436>
+        </StyledContainer03>
+      </StyledMargin01>
+      <StyledContainer04>
+        <StyledHeading2>
+          <StyledContactMe>Contact Me</StyledContactMe>
+        </StyledHeading2>
+      </StyledContainer04>
+      <StyledMain>
+        <StyledSection>
+          <StyledMargin02>
+            <StyledContainer05>
+              <Styled15e88e98ba2df946ea4d769277541fb030c0femv2jpg  src="images/tq_ofetkyg1ce-b74-1500w.png"/>
+            </StyledContainer05>
+          </StyledMargin02>
+          <StyledMargin03>
+            <StyledContainer06>
+              <StyledContainer07>
+                <StyledHeyImZakandthisisalittleblurbaboutmeIvecommittedtoartandgraphicdesignasahobbybecauseofhowmuchcreativityitinvolvesandhowmuchIlikelettingmymindwanderIliketodrawthingsthataretowardsthehorrorsideofthingswithmelikingsubjectsalongthelinesofeldritchhorrorandjustcreepythingsingeneralThemainreasonIcreateartisbecauseitletsmyminddoitsownthingwithouthavingtoworryaboutrestrictionsorworryingaboutwhatIhavetodoEssentiallyImakeartbecauseitisacozyandsafespacetojustletmycreativityoutwithoutanyboundaries>Hey, I’m Zak and this is a little blurb about me. I’ve<br/>committed to art and graphic design as a hobby<br/>because of how much creativity it involves and<br/>how much I like letting my mind wander. I like to<br/>draw things that are towards the horror side of<br/>things, with me liking subjects along the lines of<br/>eldritch horror and just creepy things in general.<br/>The main reason I create art is because it lets my<br/>mind do its own thing without having to worry<br/>about restrictions or worrying about what I have to<br/>do. Essentially, I make art because it is a cozy and<br/>safe space to just let my creativity out without<br/>any boundaries.</StyledHeyImZakandthisisalittleblurbaboutmeIvecommittedtoartandgraphicdesignasahobbybecauseofhowmuchcreativityitinvolvesandhowmuchIlikelettingmymindwanderIliketodrawthingsthataretowardsthehorrorsideofthingswithmelikingsubjectsalongthelinesofeldritchhorrorandjustcreepythingsingeneralThemainreasonIcreateartisbecauseitletsmyminddoitsownthingwithouthavingtoworryaboutrestrictionsorworryingaboutwhatIhavetodoEssentiallyImakeartbecauseitisacozyandsafespacetojustletmycreativityoutwithoutanyboundaries>
+              </StyledContainer07>
+            </StyledContainer06>
+          </StyledMargin03>
+          <StyledMargin04>
+            <StyledContainer08>
+              <StyledHeading1>
+                <StyledAboutMe>About Me</StyledAboutMe>
+              </StyledHeading1>
+            </StyledContainer08>
+          </StyledMargin04>
+        </StyledSection>
+        <StyledMargin05 />
+      </StyledMain>
+      <StyledSection01>
+        <StyledContainer09>
+          <StyledGradient />
+        </StyledContainer09>
+        <StyledContainer10>
+          <StyledContainer11>
+            <StyledContainer12>
+              <StyledMargin06>
+                <StyledContainer13>
+                  <StyledLink>
+                    <StyledImgbusinesscardeditedjpgmask>
+                      <StyledImagefill>
+                        <div data-svg-wrapper data-layer="Component 2" data-variant="2" style="position: relative">
+                          <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_124_394)">
+                          <path d="M37.6767 19.147C37.6767 29.3289 29.4227 37.583 19.2407 37.583C9.05873 37.583 0.804688 29.3289 0.804688 19.147C0.804688 8.96498 9.05873 0.710938 19.2407 0.710938C29.4227 0.710938 37.6767 8.96498 37.6767 19.147Z" fill="black"/>
+                          </g>
+                          <defs>
+                          <clipPath id="clip0_124_394">
+                          <rect width="36.8721" height="36.8721" fill="white" transform="translate(0.804688 0.710938)"/>
+                          </clipPath>
+                          </defs>
+                          </svg>
+                        </div>
+                      </StyledImagefill>
+                    </StyledImgbusinesscardeditedjpgmask>
+                    <div data-svg-wrapper data-layer="business card_edited.jpg" style="left: 0px; top: 0px; position: absolute">
+                      <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <rect width="36.8721" height="36.8721" transform="translate(0.804688 0.710938)" fill="url(#pattern0_124_395)"/>
+                      <defs>
+                      <pattern id="pattern0_124_395" patternContentUnits="objectBoundingBox" width="1" height="1">
+                      <use xlink:href="#image0_124_395" transform="scale(0.0227273)"/>
+                      </pattern>
+                      <image id="image0_124_395" width="44" height="44" preserveAspectRatio="none" xlink:href="data:image/png;base64,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"/>
+                      </defs>
+                      </svg>
+                    </div>
+                  </StyledLink>
+                </StyledContainer13>
+              </StyledMargin06>
+              <StyledMargin07>
+                <StyledContainer14>
+                  <StyledContainer15>
+                    <StyledLinkZakHandelman>Zak Handelman</StyledLinkZakHandelman>
+                  </StyledContainer15>
+                </StyledContainer14>
+              </StyledMargin07>
+            </StyledContainer12>
+          </StyledContainer11>
+          <StyledContainer16>
+            <StyledContainer17 />
+          </StyledContainer16>
+        </StyledContainer10>
+      </StyledSection01>
+      <StyledWixdropdownmenu>
+        <StyledNavSite>
+          <StyledList>
+            <StyledComponent4>
+              <StyledLink01>
+                <StyledContainer18>
+                  <StyledText>Home</StyledText>
+                </StyledContainer18>
+              </StyledLink01>
+            </StyledComponent4>
+            <StyledComponent401>
+              <StyledLink02>
+                <StyledContainer19>
+                  <StyledText01>Work</StyledText01>
+                </StyledContainer19>
+              </StyledLink02>
+            </StyledComponent401>
+          </StyledList>
+        </StyledNavSite>
+      </StyledWixdropdownmenu>
+    </StyledHomeaboutme>
+  );
